@@ -22,6 +22,10 @@ const userSchema = new Schema({
         lowercase:true,
         immutable: true,
     },
+    isPaid:{
+        type:Boolean,
+        default:0,
+    },
     age:{
         type:Number,
         min:6,
